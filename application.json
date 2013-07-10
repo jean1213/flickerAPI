@@ -4,7 +4,14 @@
     	"appPort": 8666,
     	"specs": {
       		"hello": {
-        		"type": "HelloMojit"
+				"type": "HTMLFrameMojit",
+				"config": {
+					"deploy" : true,
+					"title" : "Mojito",
+					"child" : {
+						"type" : "HelloMojit"
+					}
+				}
       		}
     	}
   	},

@@ -1,2 +1,23 @@
-dt { font-weight: bold; }
-.sel { background-color: #FF4; }
+* {}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 90%;
+	margin: 10px;
+	height: 200px;
+}
+
+.content {
+	margin: 10px;
+	width: 90%;
+}
+
+footer {
+	margin: 10px;
+	width: 90%;
+	height: 100px;
+}

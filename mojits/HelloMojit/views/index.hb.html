@@ -1,10 +1,18 @@
 <div id="{{mojit_view_id}}">
-    <dl>
-        <dt>status</dt>
-        <dd id="dd_status">{{status}}</dd>
-        <dt>data</dt>
-        <dd id="dd_data">
-            <b>some:</b> {{#data}}{{name}}{{/data}}
-        </dd>
-    </dl>
+	<div class="container">
+
+		<div class="header">
+			<h1>Flicker camera brands</h1>
+		</div>
+
+		<div class="content">
+			<ul>		
+    		{{#data}}<li>{{name}}</li>{{/data}}
+			</ul>
+		</div>
+
+		<footer>
+			<p>&copy; Jean 2012</p>
+		</footer>
+	</div>
 </div>

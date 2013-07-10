@@ -28,6 +28,7 @@ YUI.add('HelloMojit', function(Y, NAME) {
                     return;
                 }
                 ac.assets.addCss('./index.css');
+                ac.assets.addCss('./pure-min.css');
                 ac.done({
                     status: 'Get Brands from Flicker',
                     data: data
